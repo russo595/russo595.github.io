@@ -1,0 +1,280 @@
+.contact_form fieldset{
+	border-radius: 20px;
+	background: #E1EDEB;
+	width: 50%;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+
+.contact_form legend{
+	font: bold italic 110% serif;
+	font-size: 2em;
+}
+
+.contact_form input, select, textarea{
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+.contact_form input[type="text"]{
+	text-transform: capitalize;
+}
+
+.contact_form input:not([type="submit"]):focus{
+	background: #ff7;
+	color: #f67;
+}
+
+.header{
+	display: block;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+ 	height: 205px; /* Высота шапки */
+	background: url(../images/sport.png) no-repeat center bottom;
+	background-size: 100%;
+	text-align: center;
+}
+
+.logo_menu{
+	position: relative;
+	display: inline-block;
+	width: 80%;
+}
+
+.menu_div{
+	width: 70%;
+	margin: auto;
+}
+
+.menu_list{
+	display: inline-block;
+}
+
+.div_logo{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	left: 60px;
+	top: 15px;
+	display: inline-block;
+	float: left;
+}
+
+.div_logo img{
+	width: 100%;
+	overflow: hidden;
+	outline-style: none;
+}
+
+.menu_list li{
+	margin: 20px;
+	float: left;
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+
+.menu_list li ul{
+	list-style: none;
+	display: none;
+	position: absolute;
+	left: -40px;
+}
+
+.menu_list li ul li{
+	color: #111;
+	margin: 0;
+	width: 100%;
+	padding: 10px 0px 10px 10px;
+	font-size: 8px;
+	background: rgba(0, 170, 238, 0.3);
+	white-space: nowrap;
+}
+
+.menu_list li:hover ul{
+	display: block;
+}
+
+.menu_list li ul li:hover{
+	background: rgba(0, 170, 238, 0.5);
+}
+
+.menu_list li a{
+	display: block;
+	font: bold 150% sans-serif;
+	text-decoration: none;
+}
+
+.menu_list li a:after{
+	display: block;
+	content: "";
+	height: 2px;
+	width: 0%;
+	background-color: #f70211;
+	transition: width .3s ease-in-out;
+}
+
+.menu_list li a:hover{
+	color: #f70211;
+}
+
+.menu_list li a:hover:after, .menu_list li a:focus:after{
+	width: 100%;
+}
+
+body{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f8f8f8;
+}
+
+h1, h2, h3{
+	font-weight: normal;
+	color: #6A94CC;
+}
+
+.cat_table{
+	border-spacing: 50px;
+	text-align: center;
+	margin: auto;
+}
+
+.cat_table img{
+	height: 40%;
+}
+
+.cat_table img:hover{
+	outline-style: none;
+}
+
+.prod_table{
+	color: #707070;
+	font-style: italic;
+	line-height: 20px;
+	border-collapse: collapse;
+}
+
+.prod_table td{
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+}
+
+.prod_table td:nth-child(2n){
+	width: 400px;
+	text-align: justify;
+}
+
+.prod_table td:nth-child(2n+1){
+	width: 300px;
+	text-align: justify;
+}
+
+.prod_table caption{
+	text-align: left;
+}
+
+img{
+	outline-style: ridge;
+	outline-width: 2px 6px 6px 2px;
+	outline-color: #DCDCDC;
+}
+
+a{ 
+	color: #0c2437; 
+	font-weight: 400; 
+	text-decoration: underline; 
+}
+
+p{
+	font-size: 1.25em;
+	color: #616161;
+	text-align: justify;
+
+}
+
+footer{
+	position: relative;
+	top: 50%;
+	left: 0;
+	color: #eef;
+	text-align: center;
+}
+
+.footer{
+	height: 200px;
+	width: 100%;
+	margin: 0px;
+	background-color: #150275;
+}
+
+.PhotoAndDescribe{
+	display: inline-block;
+	background-color: #eaeaea;
+	border-radius: 10px;
+	width: 80%;
+}
+
+.PhotoAndDescribe img:hover{
+	outline-style: none;
+}
+
+.div_photo{
+	float: left;
+	margin: 30px 20px 10px 20px;
+}
+
+.describe{
+	font-size: 1em;
+	font-weight: 400;
+	padding: 10px 20px 10px 20px;
+}
+
+.describe::first-letter{
+	font-size: 2em;
+	color: #333;
+}
+
+.main_table{
+	border-collapse: collapse;
+	border-spacing: 50px;
+	margin: auto;
+	width: 60%;
+}
+
+.main_table td{
+	padding: 20px;
+	border-bottom: 1px solid #aaa;
+	width: 20%;
+}
+
+.main_table img{
+	outline-style: none;
+	width: 100%;
+}
+
+.container{
+	padding: 10px 0px 20px 40px;
+	width: 70%;
+	margin: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.poster{
+	position:relative;
+}
+
+.descr{
+	display: none;
+	margin-left: -250px;
+	border-radius: 10px;
+	padding: 10px;
+	background: #f3f3f3;
+	opacity: 0.9;
+	box-shadow:0 5px 5px rgba(0,0,0,0.1);
+}
+
+.poster:hover .descr{
+	display: block;
+	position: absolute;
+	z-index: 999;
+}
