@@ -26,6 +26,11 @@
 }
 
 .header{
+	position: relative;
+	max-width:4000px;
+	min-width: 1024px;
+	margin:0 auto;
+	margin-top:0px;
 	display: block;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
  	height: 205px; /* Высота шапки */
@@ -36,8 +41,10 @@
 
 .logo_menu{
 	position: relative;
-	display: inline-block;
-	width: 80%;
+	display: table;
+	width: 1000px;
+	min-width: 900px;
+	margin: 20px auto;
 }
 
 .menu_div{
@@ -133,6 +140,16 @@ h1, h2, h3{
 	color: #6A94CC;
 }
 
+.container_table{
+	padding: 10px 0px 20px 40px;
+	margin: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	max-width: 1000px;
+	min-width: 900px;
+	min-height: 100%;
+	box-sizing: border-box;
+}
+
 .cat_table{
 	border-spacing: 50px;
 	text-align: center;
@@ -140,7 +157,7 @@ h1, h2, h3{
 }
 
 .cat_table img{
-	height: 40%;
+	width: 400px;
 }
 
 .cat_table img:hover{
@@ -254,9 +271,12 @@ footer{
 
 .container{
 	padding: 10px 0px 20px 40px;
-	width: 70%;
 	margin: auto;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	max-width: 1000px;
+	min-width: 900px;
+	min-height: 100%;
+	box-sizing: border-box;
 }
 
 .poster{
