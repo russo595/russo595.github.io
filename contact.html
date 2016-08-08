@@ -1,111 +1,110 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>Контакты FreeSport</title>
-	</head>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Контакты FreeSport</title>
+</head>
 
-	<body>
-		<div class="header">
-			<h1>FreeSport</h1>
-		</div>
-		
-		<div class="logo_menu">
-			<div class="div_logo">
-				<img src="logo/main-logo.png">
-			</div>
-
-			<div class="menu_div">
-				<ul class="menu_list">
-
-					<li>
-						<a href="index.html">Главная</a>
-						<ul>
-							<li><a href="#">Велосипеды горные</a></li>
-							<li><a href="#">Велосипеды круизеры</a></li>
-							<li><a href="#">Велосипеды складные</a></li>
-						</ul>
-					</li>
-
-					<li><a href="catalog.html">Каталог</a></li>
-
-					<li><a href="contact.html">Контакты</a></li>
-				</ul>
-			</div>
-		</div>
-		
-		<div class="container">
-		<form class="contact_form">
-			<fieldset class="border">
-				<legend>Обратная связь</legend>
-				<table>
-				<tr>
-					<td><b>Имя:</b></td>
-					<td>
-						<input type="text" name="uname" required pattern="^[a-zA-Zа-яА-Я]+$" />
-					</td>
-				</tr>
-				
-				<tr>
-					<td><b>Email:</b></td>
-					<td>
-						<input type="email" name="email" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
-					</td>
-				</tr>
-
-				<tr>
-					<td><b>Тема:</b></td>
-					<td>
-						<select name="theme">
-							<option value="1">Благодарность</option>
-							<option value="2">Жалоба</option>
-							<option value="3">Предложение</option>
-						</select>
-					</td>
-				</tr>
-									
-				<tr>
-					<td><b>Текст обращения:</b></td>
-					<td>
-						<textarea name="utext" rows="3" cols="40" required placeholder='Введите текст'></textarea>
-					</td>
-				</tr>
-				
-				<tr>
-					<td colspan="2" >
-						<input type="submit" name="send" value="Отправить" />
-					</td>
-				</tr>
-			</table>
-			</fieldset>
-		</form>
-
-		<h2>Адрес</h2>
-		<p>
-			<b>FreeSport Казань</b><br>
-			101010, Космический район, ул. Космонавтов, 999, магазин FreeSport.
-		</p>
-
-		<p>
-			<h3>Единый Центр поддержки клиентов FreeSport Россия</h3>
-			Телефон: 9 900 999 99 66 (бесплатно) или +7 111 111 11 66
-		</p>
-
-		<div class="map_div">
-			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=_stPePyQRNvviT6FF4ua0MkEo3dOXg8h&width=100%&height=414&lang=ru_RU&sourceType=constructor&scroll=true"></script>
-		</div>
-		<br><br>
-
+<body>
+	<div class="header">
+		<h1>FreeSport</h1>
+	</div>
+	
+	<div class="logo_menu">
+		<div class="div_logo">
+			<img src="logo/main-logo.png">
 		</div>
 
-		<hr>
+		<div class="menu_div">
+			<ul class="menu_list">
 
-		<div class="footer">
-			<footer>
-			Copyright &copy; 2016 Rustem Sabitov. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
-			</footer>
+				<li>
+					<a href="index.html">Главная</a>
+					<ul>
+						<li><a href="#">Велосипеды горные</a></li>
+						<li><a href="#">Велосипеды круизеры</a></li>
+						<li><a href="#">Велосипеды складные</a></li>
+					</ul>
+				</li>
+
+				<li><a href="catalog.html">Каталог</a></li>
+
+				<li><a href="contact.html">Контакты</a></li>
+			</ul>
 		</div>
-	</body>
+	</div>
+	
+	<div class="container">
+	<form class="contact_form">
+		<fieldset class="border">
+			<legend>Обратная связь</legend>
+			<table>
+			<tr>
+				<td><b>Имя:</b></td>
+				<td>
+					<input type="text" name="uname" required pattern="^[a-zA-Zа-яА-Я]+$" />
+				</td>
+			</tr>
+			
+			<tr>
+				<td><b>Email:</b></td>
+				<td>
+					<input type="email" name="email" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
+				</td>
+			</tr>
+
+			<tr>
+				<td><b>Тема:</b></td>
+				<td>
+					<select name="theme">
+						<option value="1">Благодарность</option>
+						<option value="2">Жалоба</option>
+						<option value="3">Предложение</option>
+					</select>
+				</td>
+			</tr>
+								
+			<tr>
+				<td><b>Текст обращения:</b></td>
+				<td>
+					<textarea name="utext" rows="3" cols="40" required placeholder='Введите текст'></textarea>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="2" >
+					<input type="submit" name="send" value="Отправить" />
+				</td>
+			</tr>
+		</table>
+		</fieldset>
+	</form>
+
+	<h2>Адрес</h2>
+	<p>
+		<b>FreeSport Казань</b><br>
+		101010, Космический район, ул. Космонавтов, 999, магазин FreeSport.
+	</p>
+
+	<p>
+		<h3>Единый Центр поддержки клиентов FreeSport Россия</h3>
+		Телефон: 9 900 999 99 66 (бесплатно) или +7 111 111 11 66
+	</p>
+
+	<div class="map_div">
+		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=_stPePyQRNvviT6FF4ua0MkEo3dOXg8h&width=100%&height=414&lang=ru_RU&sourceType=constructor&scroll=true"></script>
+	</div>
+	<br><br>
+	</div>
+
+	<hr>
+
+	<div class="footer">
+		<footer>
+		Copyright &copy; 2016 Rustem Sabitov. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
+		</footer>
+	</div>
+</body>
 
 </html>
