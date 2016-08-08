@@ -26,17 +26,15 @@
 }
 
 .header{
-	position: relative;
-	max-width:4000px;
-	min-width: 1024px;
-	margin:0 auto;
-	margin-top:0px;
-	display: block;
+	text-align: justify;
+	letter-spacing: 1px;
+	height: 8em;
+	padding: 2em 10%;
+	background: #2c3e50;
+	color: #fff;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
- 	height: 205px; /* Высота шапки */
 	background: url(../images/sport.png) no-repeat center bottom;
 	background-size: 100%;
-	text-align: center;
 }
 
 .logo_menu{
