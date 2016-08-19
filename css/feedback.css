@@ -30,7 +30,7 @@
 	left: 0; /* При наведении сдвигаем вправо */
 }
 
-a {
+.feedback a {
 	color: #207ebf;
 	text-decoration: none;
 	font-weight: bold;
